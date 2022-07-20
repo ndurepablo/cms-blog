@@ -131,3 +131,4 @@ dmypy.json
 #ignore media files
 .media/articles/*
 media/articles/*
+media/articles/*.jpeg
