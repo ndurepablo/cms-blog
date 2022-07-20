@@ -131,3 +131,6 @@ dmypy.json
 #ignore media files
 .media/articles/*
 media/articles/*
+
+# .DS_Store and other hidden files
+.DS_Store
