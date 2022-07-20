@@ -129,4 +129,10 @@ dmypy.json
 .pyre/
 
 #ignore media files
+.media
+.medias
 media/
+medias/
+MEDIA/
+media.bak/
+medias.bak/
