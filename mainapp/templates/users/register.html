@@ -11,8 +11,8 @@
     {% csrf_token %}
 
     {% for field in register_form %}
-        {{field.label}}
-        {{field}}
+        <label>{{field.label}}</label>
+         {{field}}
     {% endfor %}
 
     <input type="submit" value="Registrar" />

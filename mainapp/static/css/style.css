@@ -208,9 +208,13 @@ ol, ul{
 .box form label{
     display: block;
     margin-bottom: 10px;
+    padding-left: 0px;
+    
 }
 
 .box form input[type="text"],
+.box form input[type="email"],
+.box form input[type="password"],
 .box form textarea{
     width: 100%;
     padding: 5px;
@@ -248,9 +252,17 @@ ol, ul{
 }
 
 
-.message{
+.message,
+.alert-success{
     padding: 20px;
     background: #1f7e58;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.alert-warning{
+    padding: 20px;
+    background: #971818;
     color: white;
     text-align: center;
     margin-bottom: 10px;
